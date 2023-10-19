@@ -1,0 +1,210 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    overflow: hidden;
+    position: fixed;
+    background-color: #333;
+    color: #070101;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.he1{
+    font-size: 40px;
+    font-family: 'Lora', serif;
+    text-shadow: 0 0 3px #df9191, 0 0 5px #35b3b3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+#nav-links li {
+    margin-right: 20px;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: #fdfdfd;
+    font-family: 'Capriola', sans-serif;
+    font-size: 20px;
+    font-weight: 20px;
+    text-shadow: 0 0 1px #f4abab, 0 0 2px #07c0f8;
+}
+
+.water img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.image{
+    position: relative;
+    opacity: 0.9;
+}
+
+.image :hover{
+    opacity: 0.7;
+}
+
+.image-text{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-color: rgb(41, 41, 41, 0.8);
+    color: rgb(255, 255, 255);
+    font-family: 'Young Serif', serif;
+}
+.image-text h1{
+    font-size: 150px;
+    text-align: center;
+}
+
+.container .donate{
+    padding: 30px;
+    text-align: center;
+}
+
+.container .donate button{
+    cursor: pointer;
+    font-family: 'Young Serif', serif;
+    font-size: 30px;
+    color: #333;
+    border-radius: 10px;
+    background: #02ed4c;
+    border: 2px solid rgb(106, 250, 3);
+    text-shadow: 0 0 3px #df9191, 0 0 5px #0c0d0d;
+}
+
+   
+.table{
+    text-align: center;
+}
+
+.table h2{
+    font-size: 60px;
+    text-shadow: 0 0 8px #df9191, 0 0 5px #a9dede;
+}
+
+.table .center{
+    font-size: 40px;
+    margin: 8px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 10px solid #333;
+    color: #54d57d;
+    text-shadow: 0 0 8px #0f0e0e, 0 0 5px #0723f3;
+}
+
+.table .center .week{
+    margin: 20px;
+    padding-right: 100px;
+    float: inline-start;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+
+.raw{
+    display: flex;
+}
+
+.grid1{
+    float: left;
+    width: 50%;
+}
+
+.grid2{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.grid2 h3{
+    font-size: 50px;
+    font-family: 'young serif';
+}
+
+.grid2 p{
+    font-size: 30px;
+    font-family: 'kanit';
+}
+
+footer {
+    background-color: #333;
+    color: #fdfcfc;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 0 0 1px #f4abab, 0 0 2px #07c0f8;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+/* Styling for popup forms */
+#volunteer-form-popup, #contact-form-popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
